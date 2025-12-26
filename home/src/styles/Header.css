@@ -1,0 +1,41 @@
+.header {
+  background: transparent;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-icon {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #6e8fff, #9c6fff);
+  border-radius: 12px;
+  color: #0c0f1d;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.brand-title {
+  margin: 0;
+  color: #f7f9ff;
+  font-weight: 700;
+}
+
+.brand-subtitle {
+  margin: 2px 0 0;
+  color: #9ca9c6;
+  font-size: 13px;
+}
